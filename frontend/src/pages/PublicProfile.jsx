@@ -80,7 +80,7 @@ export default function PublicProfile() {
                 <article className="link-card" key={link.id}>
                   <div className="link-card__content">
                     <h3 className="link-card__title">{link.title}</h3>
-                    <p className="link-card__url">{shortenUrl(link.url)}</p>
+                    <p className="link-card__url">{link.url}</p>
                     {link.note && (
                       <p className="link-card__note">{link.note}</p>
                     )}
