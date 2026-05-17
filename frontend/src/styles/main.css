@@ -44,6 +44,7 @@ textarea {
 button {
   border: none;
   cursor: pointer;
+  font-size: 16px;
 }
 
 button:disabled {
@@ -408,6 +409,7 @@ textarea.form-input {
 .link-card__url {
   color: var(--muted-color);
   font-size: 14px;
+  word-break: break-all;
 }
 
 .link-card__note {
