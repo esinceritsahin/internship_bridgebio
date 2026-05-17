@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import LinkCard from '../components/LinkCard';
 import {
   API_URL,
@@ -166,9 +166,9 @@ export default function Home({ user, username }) {
           {username && (
             <p className="home-hero__public-link">
               🔗{' '}
-              <a href={`/u/${username}`}>
-                bridgebio-frontend.onrender.com/u/{username}
-              </a>
+              <Link to={`/u/${username}`}>
+                {window.location.host}/u/{username}
+              </Link>
             </p>
           )}
         </section>
