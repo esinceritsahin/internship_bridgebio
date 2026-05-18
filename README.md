@@ -6,41 +6,41 @@
 [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
 [![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
 
-**BridgeBio**, modern web standartlarına uygun olarak tasarlanmış, kullanıcıların kendi kişiselleştirilmiş profil sayfalarını oluşturarak sosyal medya, iş ve kişisel bağlantılarını tek bir merkezden yönetmelerini sağlayan full-stack bir **Link-in-Bio (Linktree Benzeri)** web uygulamasıdır.
+BridgeBio, modern web standartlarına uygun olarak tasarlanmış, kullanıcıların kendi kişiselleştirilmiş profil sayfalarını oluşturarak sosyal medya, iş ve kişisel bağlantılarını tek bir merkezden yönetmelerini sağlayan full-stack bir web uygulamasıdır.
 
-Bu proje, "Web Geliştirme Javascript Projesi" staj programı kapsamında, tüm akademik ve teknik isterleri **%100 karşılayacak** şekilde sıfırdan geliştirilmiştir.
+Bu proje, staj programı Web Geliştirme Javascript Projesi kapsamında geliştirilmiştir.
 
 ---
 
-## 📸 Ekran Görüntüsü
+## Ekran Görüntüsü
 ![BridgeBio Ekran Görüntüsü](./screenshot.png)
 
 ---
 
-## 🚀 Öne Çıkan Özellikler
+## Öne Çıkan Özellikler
 
-- 🔐 **Güvenli Üyelik & Oturum Yönetimi:**
+Güvenli Üyelik & Oturum Yönetimi:
   - Kullanıcı kayıt (`/register`) ve giriş (`/login`) işlemleri.
-  - **JWT (JSON Web Token)** tabanlı güvenli oturum kontrolü.
-  - Şifrelerin **bcryptjs** ile 10 katmanlı (salt rounds) güvenli hashlere dönüştürülerek saklanması.
-- 🔗 **Gelişmiş Link CRUD Operasyonları:**
-  - **Ekleme (Create):** Başlık, URL ve özel açıklama/not bilgileriyle yeni bağlantı kartları oluşturma.
-  - **Listeleme (Read):** Eklenen tüm linklerin React state yönetimi ile anında listelenmesi.
-  - **Güncelleme (Update):** Kart üzerinden tek tıkla düzenleme moduna geçiş ve anında güncelleme.
-  - **Silme (Delete):** Onay pencereli güvenli silme işlemi.
-- 🌍 **Herkese Açık Profil Sayfası:**
+  - JWT (JSON Web Token) tabanlı güvenli oturum kontrolü.
+  - Şifrelerin bcryptjs ile 10 katmanlı (salt rounds) güvenli hashlere dönüştürülerek saklanması.
+Gelişmiş Link CRUD Operasyonları:
+  - Ekleme (Create):Başlık, URL ve özel açıklama/not bilgileriyle yeni bağlantı kartları oluşturma.
+  - Listeleme (Read): Eklenen tüm linklerin React state yönetimi ile anında listelenmesi.
+  - Güncelleme (Update): Kart üzerinden tek tıkla düzenleme moduna geçiş ve anında güncelleme.
+  - Silme (Delete): Onay pencereli güvenli silme işlemi.
+Herkese Açık Profil Sayfası:
   - `https://domain.com/public/:username` formatında, herkes tarafından erişilebilen kişiselleştirilmiş profil sayfası.
   - Ziyaretçiler üye girişi yapmadan paylaşılan linkleri görüntüleyebilir.
-- 🎨 **Premium Pure CSS Tasarım:**
-  - Bootstrap veya Tailwind CSS gibi hazır kütüphaneler **kullanılmadan**, tamamen özelleştirilmiş el yapımı CSS (`main.css`) kullanılarak kodlandı.
-  - Göz yormayan modern renk paleti, **Glassmorphic** (cam efekti) kart tasarımları, gölgelendirmeler ve yumuşak hover animasyonları ile premium arayüz deneyimi.
-- ⚡ **Supabase Bulut Veritabanı Entegrasyonu:**
+Premium Pure CSS Tasarım:
+  - Bootstrap veya Tailwind CSS gibi hazır kütüphaneler kullanılmadan, tamamen özelleştirilmiş el yapımı CSS (`main.css`) kullanılarak kodlandı.
+  - Göz yormayan modern renk paleti, Glassmorphic (cam efekti) kart tasarımları, gölgelendirmeler ve yumuşak hover animasyonları ile premium arayüz deneyimi.
+Supabase Bulut Veritabanı Entegrasyonu:
   - İlişkisel veritabanı yapısı (Users ve Links tabloları arası Foreign Key ilişkisi).
   - Yüksek performanslı ve güvenli veri sorguları.
 
 ---
 
-## 🛠️ Teknik Altyapı & Teknolojiler
+## Teknik Altyapı & Teknolojiler
 
 | Katman | Teknoloji / Kütüphane | Açıklama |
 | :--- | :--- | :--- |
@@ -54,7 +54,7 @@ Bu proje, "Web Geliştirme Javascript Projesi" staj programı kapsamında, tüm 
 
 ---
 
-## 📂 Proje Dizin Yapısı
+## Proje Dizin Yapısı
 
 Proje, backend ve frontend katmanlarının bağımsız geliştirilebilmesi için modüler bir yapıda kurgulanmıştır:
 
@@ -79,7 +79,7 @@ BridgeBio_staj/
 
 ---
 
-## ⚙️ Kurulum ve Çalıştırma
+## Kurulum ve Çalıştırma
 
 ### 1. Depoyu Klonlayın
 ```bash
@@ -128,7 +128,7 @@ npm start
 
 ---
 
-## 🔑 API Endpoints (Uç Noktalar)
+## API Endpoints (Uç Noktalar)
 
 ### Kimlik Doğrulama (`/api/auth`)
 * `POST /api/auth/register` - Yeni kullanıcı kaydı.
@@ -143,7 +143,7 @@ npm start
 
 ---
 
-## 💾 Veritabanı Şeması (Supabase)
+## Veritabanı Şeması (Supabase)
 
 Projenin sorunsuz çalışabilmesi için Supabase üzerinde kurulmuş olan tablo yapıları:
 
@@ -171,5 +171,5 @@ CREATE TABLE links (
 
 ---
 
-## 📄 Lisans
+## Lisans
 Bu proje staj değerlendirme projesi olarak hazırlanmış olup, tüm hakları saklıdır.
