@@ -159,7 +159,3 @@ CREATE TABLE links (
 );
 ```
 
----
-
-## Lisans
-Bu proje staj değerlendirme projesi olarak hazırlanmış olup, tüm hakları saklıdır.
