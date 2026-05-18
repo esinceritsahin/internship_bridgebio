@@ -1,10 +1,4 @@
-# 🌉 BridgeBio - Profesyonel Link Yönetim & Paylaşım Platformu
-
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
-[![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)](https://nodejs.org/)
-[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://expressjs.com/)
-[![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](https://supabase.com/)
-[![Render](https://img.shields.io/badge/Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://render.com/)
+# BridgeBio - Profesyonel Link Yönetim & Paylaşım Platformu
 
 BridgeBio, modern web standartlarına uygun olarak tasarlanmış, kullanıcıların kendi kişiselleştirilmiş profil sayfalarını oluşturarak sosyal medya, iş ve kişisel bağlantılarını tek bir merkezden yönetmelerini sağlayan full-stack bir web uygulamasıdır.
 
@@ -12,10 +6,6 @@ Bu proje, staj programı Web Geliştirme Javascript Projesi kapsamında gelişti
 
 ---
 
-## Ekran Görüntüsü
-![BridgeBio Ekran Görüntüsü](./screenshot.png)
-
----
 
 ## Öne Çıkan Özellikler
 
